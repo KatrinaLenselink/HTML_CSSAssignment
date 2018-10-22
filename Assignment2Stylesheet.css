@@ -1,0 +1,61 @@
+body{
+  color: black;
+  background-color: pink;
+}
+.intro{
+  color: white;
+  background-color: green;
+}
+.headings{
+  font-size: 100px;
+  font-weight: bold;
+}
+.fancytext{
+  font-family:cursive;
+}
+.yellingtext{
+  text-transform: uppercase;
+}
+.p1, .p2, h2 {
+  background-color: purple;
+  color: white;
+}
+.mydog{
+  background-color: blue;
+  font-weight: lighter;
+}
+.mydog h1 {
+  background-color: orange;
+}
+.mydog p {
+  font-weight: bold;
+  color: pink;
+}
+#fixed{
+  position: fixed;
+  font-size: 50px;
+  bottom: 0px;
+  right: 5px;
+  width: 165px;
+}
+#absolute{
+  position: absolute;
+  top: 200px;
+  bottom: 500px;
+  right: 600px;
+  left: 100px;
+}
+#relative{
+  position: relative;
+  top: 500px;
+  left: 15px;
+  right: 450px;
+  bottom: 700px;
+}
+#boxmodel{
+  background-color: lightblue;
+  width: 200px;
+  padding: 25px;
+  border: 25px solid navy;
+  margin: auto;
+}
